@@ -3,7 +3,9 @@
 
 import nodemailer from "nodemailer";
 import dotenv from 'dotenv';
-dotenv.config({ path: './.env.local' });
+import React from "react";
+import { resolve } from "styled-jsx/css";
+dotenv.config();
 
 export const  submitAction = async(e)=>{
 
@@ -36,7 +38,10 @@ export const  submitAction = async(e)=>{
     console.log('Message sent: %s', info.messageId);
 
     // Send a response back to the client
+    <div className="text-green-500 text-sm mb-4">Message sent successfully!</div>  
     console.log({ message: 'Email sent successfully!' });
+
+    
     
 
   } catch (error) {

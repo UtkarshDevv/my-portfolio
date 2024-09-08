@@ -3,9 +3,8 @@
 
 
 
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React, { useState , useRef} from 'react';
+
 import {submitAction } from "../../../../actions/form"
 
 
@@ -20,8 +19,6 @@ const Contact = () => {
 
 
 
-  const [error, setError] = useState(null)
-  const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
 
   const handleChange = (e) => {
@@ -31,16 +28,27 @@ const Contact = () => {
       [name]: value,
     })
   }
- const reset = ()=>{
+//  const reset = ()=>{
+  
+//   setFormData({
+//     name: '',
+//     email: '',
+//     message: '',
+//   })
+
+// // setSuccess("Form submitted") 
+//  };
+
+const handleSubmit = ()=>{
+  setSuccess(true);
   setFormData({
-    name: '',
+    name:"",
     email: '',
     message: '',
   })
-  
- };
-
-  
+}
+let ref = useRef();
+console.log(ref);
 
   return (
     <>
@@ -50,7 +58,12 @@ const Contact = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full xl:w-8/12 p-6 text-lg">
             <h2 className="text-3xl text-gray-900 leading-tight">Get in Touch</h2>
-            <form  action={submitAction}  className="mt-6">
+            {success && (
+              <div className="text-green-500 text-sm mb-4">Message sent successfully!</div>
+              )            
+            }
+            <form ref={ref} action={(e)=>{submitAction(e); ref.current.reset()}} onSubmit={handleSubmit} className="mt-6">
+            
               <div className="flex flex-wrap -mx-4 mb-6 justify-center items-center">
                 <div className="w-full xl:w-12/12 p-4">
                   <label htmlFor="name" className="block text-gray-600 mb-2">Name</label>
@@ -98,20 +111,11 @@ const Contact = () => {
                   />
                 </div>
               </div>
-            {error && (
-              <div className="text-red-500 text-sm mb-4">{error}</div>
-                          )}
-            {loading && (
-              <div className="text-gray-500 text-sm mb-4">Loading...</div>
-            )}
-            {success && (
-              <div className="text-green-500 text-sm mb-4">Message sent successfully!</div>
-            )}
+           
             <button
             // onClick={reset}
               type="submit"
-              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded w-full"
-            >
+              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded w-full">
               Send Message
             </button>
           </form>
