@@ -23,7 +23,7 @@ const  cardDetails=[
     {
       imgSrc: "/css.png",
        title :"CSS",
-       text:"With a strong foundation in HTML, I create semantic, accessible web structures that adhere to best practices. My work ensures that websites are not only visually appealing but also optimized for search engines and screen readers. I prioritize clean, maintainable markup for a solid foundation in web development."
+       text:"I have a strong command of CSS, including frameworks like TailwindCSS and Bootstrap. I leverage these tools to craft responsive, modern designs that enhance user experiences. My approach prioritizes performance, flexibility, and maintainability, ensuring that the websites I develop are visually appealing, user-friendly, and efficient across devices."
     },
     {
       imgSrc: "/JavaScript-logo.png",
