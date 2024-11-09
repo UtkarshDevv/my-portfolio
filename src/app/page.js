@@ -63,7 +63,7 @@ export default function Home() {
     <h1 className='font-{Tnter-Medium 500 Italic} text-white '>
       Hello I'm Utkarsh Sinha, a student of Banaras Hindu University currently pursuing a Bachelor's of Vocational in Computer Applications and also a passionate Full Stack Developer with a keen eye for creating engaging user experiences. My expertise lies in both frontend and backend development, with a strong proficiency in technologies such as HTML, CSS, JavaScript, React, and TailwindCSS on the frontend, and Node.js, Express.js, and MongoDB on the backend. I have a solid foundation in Java, OOP principles, and algorithms, which enables me to develop efficient and scalable solutions. With a dedication to learning and a drive to contribute to dynamic projects, I am continuously evolving my skill set in the ever-changing field of software development.
     </h1>
-    <a className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded w-min block my-2 " download="utkarsh_sinha" href='/UtkarshSinha_Resume.pdf'>Resume</a>
+    <a className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded w-min block my-2 " download="utkarsh_sinha" href='/Utkarsh_Sinha (1).pdf'>Resume</a>
   </div>
 </section>
 
