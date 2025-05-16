@@ -103,6 +103,22 @@ projected to serve approximately 25,000 students.
 </p>
 </div>
 
+
+ <div className='h-96 max-w-xl bg-purple-600   rounded-lg flex flex-col items-center overflow-y-scroll text-center text-wrap  no-scrollbar p-3 hover:font-bold sm:m-8 shadow-2xl'>
+        <div>
+          <Image className=' opacity-100 mt-4' src="/cgtpc.png" alt='profilepic' width={450} height={150} />
+          </div>
+          <h1 className='text-slate-200 '>BHU Placement Website</h1>
+          <h2  className='pb-4 font-bold ' ><Link href="https://cgpt-taupe.vercel.app/Landingpage.html">Visit</Link></h2>
+          <p>Techstack: React.js,Tailwind,Node.js,Git,VS-code
+      Techstack: Javascript, React.js,Nodejs,Expressjs , MongoDB ,RestApi,Git&Github
+This website is currently under development for the placement cell of Banaras Hindu University, Asia’s
+largest residential university. I have designed the entire frontend from scratch and implemented the
+backend, including REST APIs, database management, authentication, and routing. This platform is
+projected to serve approximately 25,000 students.
+</p>
+</div>
+
         <div className='h-96 max-w-xl  bg-purple-600  rounded-lg flex flex-col flex-grow  items-center text-center text-wrap overflow-y-scroll no-scrollbar p-3 hover:font-bold  shadow-2xl'>
           <div>
             <Image className=' opacity-100 mt-4' src="/homestay.png" alt='profilepic' width={500} height={120} />
