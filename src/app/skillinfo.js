@@ -6,6 +6,12 @@ const  cardDetails=[
  
     },
     {
+      imgSrc: "/react.jpg",
+       title :"React-Native",
+       text:"I have expertise in React.js, building dynamic, responsive user interfaces with reusable components and hooks for state management. My experience includes optimizing performance, managing global state with Context API or Redux, and integrating APIs seamlessly. I focus on creating scalable, maintainable code for complex frontend applications."
+ 
+    },
+    {
       imgSrc: "/nextjs.jpeg",
        title :"Next.js",
        text:"My proficiency in Next.js allows me to develop full-stack applications with server-side rendering (SSR) and static site generation (SSG). I utilize its routing, API routes, and built-in optimizations to create fast, SEO-friendly web applications. I’m skilled in deploying Next.js apps with Vercel and other platforms."
