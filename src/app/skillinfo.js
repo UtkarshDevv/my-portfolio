@@ -6,13 +6,13 @@ const  cardDetails=[
  
     },
     {
-      imgSrc: "/ReactNative_logo",
+      imgSrc: "/ReactNative_logo.html",
        title :"React-Native",
        text:"I have hands-on experience in React Native, developing responsive and feature-rich mobile applications using both Expo and the React Native CLI. I build modular, reusable components and manage state efficiently with Hooks, Context API, or Redux. My skill set includes seamless integration of APIs, performance optimization, and writing clean, maintainable code."
  
     },
     {
-      imgSrc: "/firebase_logo",
+      imgSrc: "/firebase_logo.png",
        title :"Firebase",
        text:"Experienced with Firebase services including Authentication, Firestore, Realtime Database, Storage, and Cloud Functions. Skilled in real-time data handling, secure user management, media uploads, and push notifications using FCM. Use Firebase to build scalable, high-performance mobile and web apps."
  
