@@ -106,16 +106,14 @@ projected to serve approximately 25,000 students.
 
  <div className='h-96 max-w-xl bg-purple-600   rounded-lg flex flex-col items-center overflow-y-scroll text-center text-wrap  no-scrollbar p-3 hover:font-bold sm:m-8 shadow-2xl'>
         <div>
-          <Image className=' opacity-100 mt-4' src="/cgtpc.png" alt='profilepic' width={450} height={150} />
+          <Image className=' opacity-100 mt-4' src="/aic_demo.png" alt='profilepic' width={450} height={150} />
           </div>
-          <h1 className='text-slate-200 '>BHU Placement Website</h1>
-          <h2  className='pb-4 font-bold ' ><Link href="https://cgpt-taupe.vercel.app/Landingpage.html">Visit</Link></h2>
-          <p>Techstack: React.js,Tailwind,Node.js,Git,VS-code
-      Techstack: Javascript, React.js,Nodejs,Expressjs , MongoDB ,RestApi,Git&Github
-This website is currently under development for the placement cell of Banaras Hindu University, Asia’s
-largest residential university. I have designed the entire frontend from scratch and implemented the
-backend, including REST APIs, database management, authentication, and routing. This platform is
-projected to serve approximately 25,000 students.
+          <h1 className='text-slate-200 '>Official AIC-BHU App</h1>
+          <h2  className='pb-4 font-bold ' ><Link href="https://drive.google.com/drive/folders/1tlfWrsVFynd0Opqfxo5DiR218vtDuQj6?usp=sharing">Visit(APK)</Link></h2>
+          <p>Techstack: React-Native,Expo,Firebase,Axios,Git,VS-code
+I have developed a mobile application for AIC-BHU using React Native and Expo, showcasing my skills in cross-platform app development. 
+The app integrates Firebase for user authentication and real-time database management, ensuring a secure and scalable backend.
+I utilized Axios for seamless API communication, enabling efficient data handling and smooth user experience. 
 </p>
 </div>
 
